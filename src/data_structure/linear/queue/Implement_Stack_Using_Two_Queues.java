@@ -12,9 +12,6 @@ public class Implement_Stack_Using_Two_Queues {
         Queue<Integer> queue1 = new LinkedList<>();
         Queue<Integer> queue2 = new LinkedList<>();
 
-        String[] arr = {""};
-        
-
         public void push(int x) {
             // ToDo: Write Your Code Here.
             queue1.add(x);
